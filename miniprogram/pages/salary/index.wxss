@@ -1,0 +1,6 @@
+.header {
+  display: block;
+  background: #057AFF;
+  height: 200px;
+  color: #fff;
+}

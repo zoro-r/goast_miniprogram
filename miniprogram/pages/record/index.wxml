@@ -1,0 +1,23 @@
+<view>
+  <view class="header">
+    剩余次数: <text class="text">{{num}}</text> 次
+  </view>
+  <view class="option-btn">
+    <view
+      class="option-btn_btn"
+      type="primary"
+      data-type="buy"
+      bindtap="makeOption"
+    >
+      买入
+    </view>
+    <view
+      class="option-btn_btn sale"
+      type="warn"
+      bindtap="makeOption"
+      data-type="sale"
+    >
+      卖出
+    </view>
+  </view>
+</view>
