@@ -9,6 +9,7 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "dayjs": "^1.11.7"
   },
   "devDependencies": {
     "miniprogram-api-typings": "^2.8.3-1"

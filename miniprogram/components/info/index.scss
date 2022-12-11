@@ -1,0 +1,27 @@
+.info {
+  margin: 100rpx 0;
+  padding: 30rpx;
+  font-size: 46rpx;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  color: #FF6E0D;
+
+  .text {
+    width: 0;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    animation: word-out 1s ease-in forwards;
+    text-align: center;
+  }
+}
+
+@keyframes word-out {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

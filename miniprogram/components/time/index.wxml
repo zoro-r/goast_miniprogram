@@ -1,0 +1,3 @@
+<view class="time-box">
+  <rich-text nodes="{{time}}" />
+</view>

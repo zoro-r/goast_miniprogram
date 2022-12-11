@@ -1,0 +1,5 @@
+<view class="info">
+  <view class="text">
+    {{word}}
+  </view>
+</view>

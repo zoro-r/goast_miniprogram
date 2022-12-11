@@ -1,8 +1,27 @@
 {
   "pages": [
     "pages/record/index",
-    "pages/salary/index"
+    "pages/salary/index",
+    "pages/notes/index"
   ],
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "text": "笔记",
+        "iconPath": "./assets/pen.png",
+        "selectedIconPath": "./assets/pen-selected.png",
+        "pagePath": "pages/notes/index"
+      },
+      {
+        "text": "操作记录",
+        "iconPath": "./assets/calander.png",
+        "selectedIconPath": "./assets/calander-selected.png",
+        "pagePath": "pages/record/index"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

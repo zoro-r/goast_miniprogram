@@ -9,7 +9,7 @@
       "list": [
         {
           "name": "",
-          "pathName": "pages/record/index",
+          "pathName": "pages/notes/index",
           "query": "",
           "launchMode": "default",
           "scene": null

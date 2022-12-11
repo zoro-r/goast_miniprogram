@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "买卖记录"
+  "usingComponents": {
+    "time": "../../components/time",
+    "info": "../../components/info"
+  },
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom"
 }

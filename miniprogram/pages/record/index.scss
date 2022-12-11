@@ -1,26 +1,29 @@
+.bar {
+  height: 60px;
+}
 .header {
-  $height: 32vh;
+  $height: 25vh;
   height: $height;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  color: #057AFF;
+  color: #3895FF;
 
   .text {
     font-size: 50px;
     margin: 0 10px;
-    color: red
+    color: #FF5050;
   }
 }
 
 .option-btn {
   display: flex;
-  padding: 10px;
-  justify-content: center;
+  padding: 10rpx 80rpx;
+  justify-content: space-between;
 
   &_btn {
-    $height: 128px;
+    $height: 125px;
 
     margin-right: 20px;
     width: $height;
@@ -29,7 +32,7 @@
     text-align: center;
     color: #fff;
     border-radius: 50%;
-    background-color: #057AFF;
+    background-color: #14CC76;
     font-size: 30px;
 
     &:active {
@@ -38,6 +41,6 @@
   }
 
   .sale {
-    background-color: red;
+    background-color: #FF5050;
   }
 }

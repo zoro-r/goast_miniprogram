@@ -1,0 +1,41 @@
+<!-- 输入内容 -->
+<view class="note">
+  <textarea
+    value="{{textValue}}"
+    class="textarea"
+    placeholder="请输入你的记录内容"
+    bindinput="onInput"
+  ></textarea>
+</view>
+
+<view class="container_btn">
+  <button
+    class="btn"
+    type="primary"
+    bindtap="onParse"
+  >
+    粘贴
+  </button>
+
+  <button
+    class="btn"
+    type="primary"
+    bindtap="onRecord"
+  >
+    记录
+  </button>
+</view>
+
+<!-- 记录内容 -->
+<view class="record-list">
+  <view
+    wx:key="index"
+    wx:for="{{notes}}"
+    class="record-item"
+  >
+    {{item}}
+    <view class="btn-area">
+      <button data-item="{{item}}" bindtap="onCopy" class="btn" size="mini">复制</button>
+    </view>
+  </view>
+</view>
